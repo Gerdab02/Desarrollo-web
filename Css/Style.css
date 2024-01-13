@@ -1,0 +1,27 @@
+h1 {
+    color: red;
+}
+
+h4 {
+    color: red;
+}
+
+body {
+    text-align: center;
+}
+
+header {
+    background-color: black;
+}
+
+footer {
+    background-color: black;
+    position: absolute;
+    width: 100%;
+    bottom: 0%;
+
+}
+
+.wsp {
+    margin-right: 100%;
+}
