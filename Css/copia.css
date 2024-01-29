@@ -1,0 +1,65 @@
+h1 {
+    color: red;
+}
+
+h4 {
+    color: red;
+}
+
+body {
+    text-align: center;
+    background-color: beige;
+}
+
+header {
+    background-color: black;
+}
+
+footer {
+    background-color: black;
+    position: absolute;
+    width: 100%;
+    bottom: 0%;
+
+}
+
+.wsp {
+    margin-right: 100%;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.img-one {
+    flex-direction: column;
+    width: 20%;
+    height: 20%;
+    padding-bottom: 4%;
+}
+.img-two {
+    flex-direction: column;
+    width: 20%;
+    height: 20%;
+    padding-bottom: 4%;
+}
+.img-three {
+    flex-direction: column;
+    width: 20%;
+    height: 20%;
+}
+.img-four {
+    flex-direction: column;
+    width: 25%;
+    height: 25%;
+}
+.img-five {
+    flex-direction: column;
+    width: 25%;
+    height: 25%;
+}
+.img-principal {
+    width: 45%;
+    height: 45%;
+}
