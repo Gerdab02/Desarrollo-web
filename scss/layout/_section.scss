@@ -2,39 +2,45 @@ section {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    
+
     .wsp {
         display: flex;
         flex-direction: column;
         margin-right: 90%;
     }
+
     .img-one {
         flex-direction: column;
         width: 20%;
         height: 20%;
         padding-bottom: 4%;
     }
+
     .img-two {
         flex-direction: column;
         width: 20%;
         height: 20%;
         padding-bottom: 4%;
     }
+
     .img-three {
         flex-direction: column;
         width: 20%;
         height: 20%;
     }
+
     .img-four {
         flex-direction: column;
         width: 25%;
         height: 25%;
     }
+
     .img-five {
         flex-direction: column;
         width: 25%;
         height: 25%;
     }
+
     .img-principal {
         width: 45%;
         height: 45%;
