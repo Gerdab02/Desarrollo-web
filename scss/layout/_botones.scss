@@ -1,0 +1,13 @@
+.boton-lineal {
+    background-image: linear-gradient(to right, grey, aqua);
+    padding: 4px;
+    color: white;
+}
+
+.wsp {
+    transition: 1s;
+
+    &:hover {
+        transform: rotate(360deg)
+    }
+}
