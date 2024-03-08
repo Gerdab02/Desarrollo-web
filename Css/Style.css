@@ -1,16 +1,18 @@
 header {
   background-color: black;
 }
+
 header h1 {
   color: red;
 }
+
 header h4 {
   color: red;
 }
 
 body {
   text-align: center;
-  background-color: beige;
+  background-color: lightskyblue;
 }
 
 footer {
@@ -19,6 +21,7 @@ footer {
   width: 100%;
   bottom: 0%;
 }
+
 footer h4 {
   color: red;
 }
@@ -28,54 +31,72 @@ section {
   flex-wrap: wrap;
   justify-content: center;
 }
+
 section .wsp {
   display: flex;
   flex-direction: column;
   margin-right: 90%;
 }
+
 section .img-one {
   flex-direction: column;
   width: 20%;
   height: 20%;
   padding-bottom: 4%;
 }
+
 section .img-two {
   flex-direction: column;
   width: 20%;
   height: 20%;
   padding-bottom: 4%;
 }
+
 section .img-three {
   flex-direction: column;
   width: 20%;
   height: 20%;
 }
+
 section .img-four {
   flex-direction: column;
   width: 25%;
   height: 25%;
 }
+
 section .img-five {
   flex-direction: column;
   width: 25%;
   height: 25%;
 }
+
 section .img-principal {
   width: 45%;
   height: 45%;
 }
 
-.boton-lineal {
-  background-image: linear-gradient(to right, grey, aqua);
-  padding: 4px;
-  color: white;
-}
-
 .wsp {
   transition: 1s;
 }
+
 .wsp:hover {
   transform: rotate(360deg);
+}
+
+.img-four {
+  transition: 1s;
+}
+
+.img-four:hover {
+  transform: rotate(10deg);
+}
+
+.img-five {
+  transition: 1s;
+}
+
+.img-five:hover {
+  transform: rotate(10deg);
 }
 
 /*# sourceMappingURL=Style.css.map */
